@@ -1,0 +1,26 @@
+{
+  "id": "465b2431-8b6a-4f6a-b1a6-4733bd0d8019",
+  "name": "PTE-BC20_0_CA_BOC Currency Service Patch",
+  "publisher": "Andrew Thomas Clark",
+  "version": "1.0.0.0",
+  "brief": "Rolls back some changes in COD1280 that cause the BOC data mapping to fail (skip all records).",
+  "description": "You must manually set the Mapping Codeunit to 80989 in the Data Exchange Definition Field Mapping.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "19.0.0.0",
+  "application": "19.5.0.0",
+  "idRanges": [
+    {
+      "from": 80988,
+      "to": 80989
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "8.0",
+  "target": "Cloud"
+}
